@@ -4,6 +4,9 @@ import cv2
 # Import numpy for matrices calculations
 import numpy as np
 
+# Enter user name here
+username = "sample"
+
 # Create Local Binary Patterns Histograms for face recognization
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 
@@ -44,7 +47,7 @@ while True:
 
         # Check the ID if exist
         if(Id == 1):
-            Id = "Zhen Yuen"
+            Id = username
              #If not exist, then it is Unknown
         else:
             print(Id)
