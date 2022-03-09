@@ -5,4 +5,4 @@ To use, create a folder named 'dataset' at the current directory and run face_da
 
 Then, run training.py to train the model.
 
-Finally, run face_recognition.py to try the programme.
+Finally, modify the username parameter in face_recognition.py and run the script to test the programme.
